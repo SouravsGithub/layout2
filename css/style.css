@@ -140,6 +140,7 @@ header input {
   top: -3.5%;
   left: 46%;
   width: 6%;
+  scroll-behavior: smooth;
 }
 .second-container {
   width: 80%;
