@@ -224,6 +224,56 @@ header input {
   border-radius: 6px;
   font-weight: 500;
 }
+
+/* FOURTH SECTION STYLING */
+
+.fourth {
+  margin-top: 10%;
+  margin-bottom: 5%;
+}
+.fourth-container {
+  display: flex;
+  justify-content: center;
+  width: 80%;
+  margin: auto auto;
+}
+.fourth-container > * {
+  flex: 2;
+}
+.fourth-container > img {
+  width: 50%;
+  padding-left: 10%;
+  flex: 3;
+}
+
+.fourth-text h4 {
+  margin-top: 20%;
+  font-weight: normal;
+  color: rgb(157, 157, 157);
+  letter-spacing: 1px;
+}
+.fourth-text > h3 {
+  font-size: 3rem;
+  font-family: serif;
+  font-weight: normal;
+  margin-top: 9%;
+  margin-bottom: 8%;
+  line-height: 1;
+}
+.fourth-text > p {
+  line-height: 1.6;
+  color: rgb(65, 65, 65);
+  margin: 5% 0;
+  margin-bottom: 15%;
+}
+.fourth-text > a {
+  text-decoration: none;
+  padding: 1rem 2rem;
+  color: white;
+  background-color: #1c64f4;
+  border-radius: 6px;
+  font-weight: 500;
+}
 footer {
 }
 
