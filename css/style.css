@@ -326,6 +326,53 @@ header input {
 footer {
 }
 
+/* STYLING SIXTH SECTION */
+.sixth {
+  margin-bottom: 8%;
+}
+.sixth-container {
+  width: 85%;
+  margin: auto auto;
+  display: flex;
+  justify-content: center;
+}
+.sixth-container > * {
+  flex: 1;
+  padding: 0 5%;
+}
+.sixth-container > img {
+  object-fit: contain;
+  width: 50%;
+}
+
+.sixth-text h4 {
+  font-weight: normal;
+  color: rgb(157, 157, 157);
+  letter-spacing: 1px;
+}
+.sixth-text > h3 {
+  font-size: 3rem;
+  font-family: serif;
+  font-weight: normal;
+  margin-top: 7%;
+  margin-bottom: 7%;
+  line-height: 1;
+}
+.sixth-text > p {
+  line-height: 2;
+  color: rgb(65, 65, 65);
+  margin: 5% 0;
+  margin-bottom: 15%;
+  font-size: 1.1rem;
+}
+.sixth-text > a {
+  text-decoration: none;
+  padding: 1rem 2rem;
+  color: white;
+  background-color: #1c64f4;
+  border-radius: 6px;
+  font-weight: 500;
+}
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
