@@ -274,6 +274,53 @@ header input {
   border-radius: 6px;
   font-weight: 500;
 }
+
+/* FIFTH SECTION STYLING */
+.fifth {
+  background: url(../img/Mediamodifier-Design-Template.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  position: relative;
+  height: 100vh;
+}
+.fifth-container {
+  width: 70%;
+  margin: auto auto;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.fifth-container > p {
+  font-family: serif;
+  font-size: 2.3rem;
+  margin-bottom: 3%;
+}
+.student {
+  width: 100%;
+  display: flex;
+  justify-content: end;
+}
+.student > img {
+  width: 13%;
+  margin-left: 3%;
+}
+.student-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: end;
+}
+.student-text > span {
+  letter-spacing: 1px;
+}
+.student-text > span + span {
+  letter-spacing: 0;
+  font-style: italic;
+  color: grey;
+}
 footer {
 }
 
