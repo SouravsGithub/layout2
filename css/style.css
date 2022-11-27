@@ -283,6 +283,8 @@ header input {
   background-position: top;
   position: relative;
   height: 100vh;
+  margin-top: 8%;
+  margin-bottom: 5%;
 }
 .fifth-container {
   width: 70%;
