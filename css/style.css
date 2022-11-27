@@ -169,6 +169,61 @@ header input {
   margin-left: 30%;
 }
 
+/* THIRD SECTION STYLING */
+.third {
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+.third-container {
+  width: 80%;
+  margin: auto auto;
+  display: flex;
+}
+.third-container > * {
+  flex: 1;
+}
+.third-container > img {
+  width: 55%;
+  padding-right: 5%;
+}
+.third-text {
+  padding-left: 5%;
+}
+.third-text > h4 {
+  margin: 0;
+  font-weight: normal;
+  color: rgb(157, 157, 157);
+  letter-spacing: 1px;
+}
+.third-text > h3 {
+  font-size: 3.1rem;
+  font-family: serif;
+  font-weight: normal;
+  margin-top: 5%;
+  margin-bottom: 3%;
+  line-height: 1;
+}
+.third-text > span {
+  font-size: 0.7rem;
+  color: rgb(146, 146, 146);
+}
+.third-text > p {
+  width: 90%;
+  line-height: 1.6;
+  text-align: justify;
+  text-justify: inter-cluster;
+  color: rgb(65, 65, 65);
+  margin: 6% 0;
+  margin-bottom: 15%;
+}
+.third-text > a {
+  text-decoration: none;
+  padding: 1rem 2.2rem;
+  color: white;
+  background-color: #1c64f4;
+  border-radius: 6px;
+  font-weight: 500;
+}
 footer {
 }
 
