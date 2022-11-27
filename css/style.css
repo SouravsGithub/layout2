@@ -94,6 +94,9 @@ header input {
   padding: 0;
   font-size: 3.5rem;
   font-family: serif;
+  font-weight: 500;
+  transform: scaleX(1.05);
+  margin-left: 2%;
 }
 .hero-text p {
   line-height: 2;
@@ -109,9 +112,63 @@ header input {
   font-weight: bold;
   padding: 0.7rem 3.2rem;
   background-color: #1c64f4;
-  margin-right: 2%;
+  margin-right: 1.5%;
   border-radius: 4px;
 }
+
+/* SECOND SECTION STYLING */
+.second {
+  background: url(../img/Mediamodifier-Design-Template.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  position: relative;
+  height: 100vh;
+}
+.second h2 {
+  text-align: center;
+  padding-top: 8%;
+  font-family: serif;
+  font-size: 2.8rem;
+  font-weight: 500;
+}
+.second > a {
+  scroll-behavior: smooth;
+}
+.second > a > img {
+  position: absolute;
+  top: -3.5%;
+  left: 46%;
+  width: 6%;
+}
+.second-container {
+  width: 80%;
+  margin: auto auto;
+  display: flex;
+}
+.second-container > * {
+  flex: 1;
+  padding: 6% 2.5%;
+}
+.second-container > section > * {
+  text-align: center;
+}
+.second-container img {
+  margin-left: 26%;
+}
+.second-container p {
+  line-height: 2;
+  font-size: 0.9rem;
+}
+.second h3 {
+  font-family: serif;
+  font-size: 1.6rem;
+  font-weight: 500;
+}
+.second-container .little-right {
+  margin-left: 30%;
+}
+
 footer {
 }
 
