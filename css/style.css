@@ -1,0 +1,81 @@
+/* Box Model Hack */
+* {
+  box-sizing: border-box;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+}
+
+.clear {
+  clear: both;
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+header {
+  height: 60px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-bottom: 1px solid rgb(225, 225, 225);
+}
+
+nav {
+  display: flex;
+  flex-basis: 18%;
+  justify-content: space-between;
+}
+.left-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-basis: 23%;
+}
+header a {
+  text-decoration: none;
+  color: blue;
+  font-weight: medium;
+}
+::placeholder {
+  color: blue;
+}
+:-ms-input-placeholder {
+  color: blue;
+}
+header form {
+  position: relative;
+}
+header input {
+  width: 95%;
+  padding: 0.6rem 0.5rem;
+  background: rgb(242, 242, 242);
+  border: none;
+}
+.left-container img {
+  position: absolute;
+  width: 10%;
+  right: 10%;
+  top: 20%;
+}
+footer {
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
