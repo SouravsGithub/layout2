@@ -374,6 +374,36 @@ footer {
   border-radius: 6px;
   font-weight: 500;
 }
+
+/* STYLING SEVENTH SECTION */
+
+.seventh {
+  margin: 15% auto;
+}
+.seventh h3 {
+  text-align: center;
+  font-size: 3rem;
+  font-family: serif;
+  font-weight: 500;
+}
+.some-links {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+.some-links a {
+  text-decoration: none;
+  padding: 1.1rem 0;
+  width: 22rem;
+  color: white;
+  background-color: #1c64f4;
+  border-radius: 6px;
+  font-weight: 500;
+  text-align: center;
+  margin-bottom: 0.5%;
+  font-size: 1.1rem;
+}
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
